@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <!--språket i texten-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--character set, med vilken webb-och internetprotokoll kan identifiera olika tecken-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--viewport: del man visa av den totala bilden; content: kontrollera storleken av viewport; initial-scale: påverka scale och width och även zoom level-->
+    <title>RESTAURANGER</title>
+    <link rel="stylesheet" href="index.css" />
+    <!--länk till min CSS dokument-->
+  </head>
+  <body>
+    <div class="content">
+      <header>
+      <!-- class speciferar flera element som bearbetar jag i CSS -->
+      <a href="index.html">
+        <!--hela bilden funkar som en länk-->
+          <!-- avdelningen=header, header=12 column grid -->
+          <div class="header_text">
+            <h1>BERLIN</h1>
+          </div>
+        </a>
+      </header>
+      <div class="clear"></div>
+      <!--clear specificierar element som flyter bredvid rensat element och på vilken sida-->
+
+      <nav>
+        <!--id specificerar bara ett element som bearbetar jag i CSS-->
+        <!-- avdelning till navigeringen, vilken är en oordnad lista -->
+        <ul>
+          <li><a class="menu" href="restauranger.html">Restauranger</a></li>
+          <!--länkar till andra sidor-->
+          <li><a class="menu" href="kafeer.html">Kaféer</a></li>
+          <li><a class="menu" href="nattliv.html">Nattliv</a></li>
+          <li><a class="menu" href="sightseeing.html">Sightseeing</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+
+      <section>
+        <!-- nästa avdelningen=2x6 columns -->
+        <h6>Section1</h6>
+        <img
+          id="mainpicture"
+          src="images/tim_mossholder_unsplash.jpg"
+          alt="A red light saying EAT in front of a black wall"
+          title="EAT by Tim Mossholder"
+        />
+      </section>
+
+      <section>
+        <h6>Section2</h6>
+        <p id="introduktion">
+          Här hittar du mina handplockade tips om dom bästa restaurangerna i
+          Berlin. <strong>Viel Spaß!</strong>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+          similique tenetur. Quasvoluptate beatae voluptas commodi? Impedit
+          itaque quibusdam praesentium, sed quaerat numquam sint molestiae.
+          Officia debitis facilis sunt voluptates. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Ad cumque distinctio ipsum in quod!
+          Nulla libero suscipit magnam eaque quam cum voluptates omnis esse
+          facere perspiciatis. Est provident harum nemo. Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Nulla a officia nihil eos illum culpa
+          quidem autem architecto facilis dignissimos magnam esse suscipit modi
+          eius, debitis ratione minima sint dolorum?
+        </p>
+      </section>
+      <div class="clear"></div>
+
+      <hr />
+      <!--gör en horizontal linje på webbsidan-->
+
+      <div id="popular" class="grid_12">Mest populära restauranger</div>
+      <div class="clear"></div>
+
+      <article>
+        <h6>Article1</h6>
+        <!-- nästa avdelningen=4x3 columns -->
+        <a href="http://zurhaxe-berlin.de/en/" target="_blank"
+          ><img
+            src="images/daniel_schludi_unsplash.jpg"
+            alt="picture from above on a table with typical bavarian food"
+            title="Bavarian Food by Daniel Schludi"
+            width="200" /></a
+        ><!--helt fotot funkar som en länk-->
+        <div class="article_text">Zur Haxe</div>
+      </article>
+
+      <article>
+        <h6>Article2</h6>
+        <a href="https://store.kadewe.de/en/" target="_blank"
+          ><img
+            src="images/kadewe_claudio_schwarz_unsplash.jpg"
+            alt="a frontpicture of the kadewe"
+            title="Kadewe by Claudio Schwarz"
+            width="200"
+        /></a>
+        <div class="article_text">Kadewe Food Court</div>
+      </article>
+
+      <article>
+        <h6>Article3</h6>
+        <a href="http://www.marienburgerie.de/" target="_blank"
+          ><img
+            src="images/burger_mae_mu_unsplash.jpg"
+            alt="closeup of burgers"
+            title="Burger by Mae Mu"
+            width="200"
+        /></a>
+        <div class="article_text">Marienburger</div>
+      </article>
+
+      <article>
+        <h6>Article4</h6>
+        <a href="https://www.facebook.com/umamirestaurantpberg/" target="_blank"
+          ><img
+            src="images/asia_matt_seymour_unsplash.jpg"
+            alt="Red Asian lamps hanging on a wall"
+            title="Red Lamps by Matt Seymour"
+            width="200"
+        /></a>
+        <div class="article_text">Umami</div>
+      </article>
+      <div class="clear"></div>
+
+      <footer>
+        <!-- avdelningen=footer, footer=12 column grid -->
+        <p id="footer_text">Copyright 2021 Uppdaterad: 05/02/2021</p>
+      </footer>
+      <div class="clear"></div>
+    </div>
+    <!-- .content ends -->
+  </body>
+</html>

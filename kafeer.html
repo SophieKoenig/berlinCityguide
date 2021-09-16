@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <!--språket i texten-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--character set, med vilken webb-och internetprotokoll kan identifiera olika tecken-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--viewport: del man visa av den totala bilden; content: kontrollera storleken av viewport; initial-scale: påverka scale och width och även zoom level-->
+    <title>KAFÉER</title>
+    <link rel="stylesheet" href="index.css" />
+    <!--länk till min CSS dokument-->
+  </head>
+  <body>
+    <div class="content">
+    <header>
+      <!-- class speciferar flera element som bearbetar jag i CSS -->
+      <a href="index.html">
+        <!--hela bilden funkar som en länk-->
+          <!-- avdelningen=header, header=12 column grid -->
+          <div class="header_text">
+            <h1>BERLIN</h1>
+          </div>
+        </a>
+    </header>
+    <div class="clear"></div>
+      <!--clear specificierar element som flyter bredvid rensat element och på vilken sida-->
+
+    <nav>
+        <!--id specificerar bara ett element som bearbetar jag i CSS-->
+        <!-- avdelning till navigeringen, vilken är en oordnad lista -->
+        <ul>
+          <li><a class="menu" href="restauranger.html">Restauranger</a></li>
+          <!--länkar till andra sidor-->
+          <li><a class="menu" href="kafeer.html">Kaféer</a></li>
+          <li><a class="menu" href="nattliv.html">Nattliv</a></li>
+          <li><a class="menu" href="sightseeing.html">Sightseeing</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+
+      <section>
+        <!-- nästa avdelningen=2x6 columns -->
+        <h6>Section1</h6>
+        <img
+          id="mainpicture"
+          src="images/rotate_nathan_dumlao_unsplash.jpg"
+          alt="Three different portfilters filled with beans, grinded beans and latte art"
+          title="Portfilter by Nathan Dumlao"
+        />
+      </section>
+
+      <section>
+        <h6>Section2</h6>
+        <p id="introduktion">
+          Här hittar du mina handplockade tips om dom bästa kafféerna i Berlin.
+          <strong>Viel Spaß!</strong>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+          similique tenetur. Quasvoluptate beatae voluptas commodi? Impedit
+          itaque quibusdam praesentium, sed quaerat numquam sint molestiae.
+          Officia debitis facilis sunt voluptates. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Ad cumque distinctio ipsum in quod!
+          Nulla libero suscipit magnam eaque quam cum voluptates omnis esse
+          facere perspiciatis. Est provident harum nemo. Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Nulla a officia nihil eos illum culpa
+          quidem autem architecto facilis dignissimos magnam esse suscipit modi
+          eius, debitis ratione minima sint dolorum?
+        </p>
+      </section>
+      <div class="clear"></div>
+
+      <hr />
+      <!--gör en horizontal linje på webbsidan-->
+
+      <div id="popular" class="grid_12">Mest populära kafféer</div>
+      <div class="clear"></div>
+
+      <article>
+        <h6>Article1</h6>
+        <!-- nästa avdelningen=4x3 columns -->
+        <a href="https://www.konditorei-buchwald.de/" target="_blank"
+          ><img
+            src="images/olena_sergienko_unsplash.jpg"
+            alt="a cheesecake from above laying on a table with raspberries on top"
+            title="Cheesecake by Olena Sergienko"
+            width="200" /></a
+        ><!--helt fotot funkar som en länk-->
+        <div class="article_text">Konditorei Buchwald</div>
+      </article>
+
+      <article>
+        <h6>Article2</h6>
+        <a href="https://houseofsmallwonder.de/" target="_blank"
+          ><img
+            src="images/cut_judah_guttmann_unsplash.jpg"
+            alt="a spiral staircase with a lot of plants standing around"
+            title="House Of Small Wonders by Judah Guttmann"
+            width="200"
+        /></a>
+        <div class="article_text">House of Small Wonders</div>
+      </article>
+
+      <article>
+        <h6>Article3</h6>
+        <a href="https://plantbase.berlin/" target="_blank" > 
+          <img
+            src="images/cut_noemi_macavei_katocz_unsplash.jpg"
+            alt="a green smoothie on a wooden table with plants in the background"
+            title="Green World by Noemi Macavei-Katocz"
+            width="200"
+        /></a>
+        <div class="article_text">Plant Base Berlin</div>
+      </article>
+
+      <article>
+        <h6>Article4</h6>
+        <a href="https://bonanzacoffee.de/" target="_blank"
+          ><img
+            src="images/najib_kalil_unsplash.jpg"
+            alt="fresh grinded coffee get poured into a coffee dripper. stands on a table with plants and coffee beans"
+            title="Coffee Dripper by Najib Kalil"
+            width="200"
+        /></a>
+        <div class="article_text">Bonanza Coffee Roasters</div>
+      </article>
+      <div class="clear"></div>
+
+      <footer>
+        <!-- avdelningen=footer, footer=12 column grid -->
+        <p id="footer_text">Copyright 2021 Uppdaterad: 05/02/2021</p>
+      </footer>
+      <div class="clear"></div>
+    </div>
+    <!-- .content ends -->
+  </body>
+</html>
