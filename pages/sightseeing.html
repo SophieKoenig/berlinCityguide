@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <!--språket i texten-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--character set, med vilken webb-och internetprotokoll kan identifiera olika tecken-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--viewport: del man visa av den totala bilden; content: kontrollera storleken av viewport; initial-scale: påverka scale och width och även zoom level-->
+    <title>SIGHTSEEING</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <!--länk till min CSS dokument-->
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <!-- class speciferar flera element som bearbetar jag i CSS -->
+        <a href="../index.html">
+          <!--hela bilden funkar som en länk-->
+          <!-- avdelningen=header, header=12 column grid -->
+          <div class="header_text">
+            <h1>BERLIN</h1>
+          </div>
+        </a>
+      </header>
+      <div class="clear"></div>
+      <!--clear specificierar element som flyter bredvid rensat element och på vilken sida-->
+
+      <nav>
+        <!--id specificerar bara ett element som bearbetar jag i CSS-->
+        <!-- avdelning till navigeringen, vilken är en oordnad lista -->
+        <ul>
+          <li><a class="menu" href="restauranger.html">Restauranger</a></li>
+          <!--länkar till andra sidor-->
+          <li><a class="menu" href="kafeer.html">Kaféer</a></li>
+          <li><a class="menu" href="nattliv.html">Nattliv</a></li>
+          <li><a class="menu" href="sightseeing.html">Sightseeing</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+
+      <section>
+        <!-- nästa avdelningen=2x6 columns -->
+        <h6>Section1</h6>
+        <img
+          id="mainpicture"
+          src="../images/sightseeing_markus_spiske_unsplash.jpg"
+          alt="postcard saying nice greetings from berlin"
+          title="Postcard by Markus Spiske"
+        />
+      </section>
+
+      <section>
+        <h6>Section2</h6>
+        <p id="introduktion">
+          Här hittar du mina handplockade tips om sightseeing.
+          <strong>Viel Spaß!</strong>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+          similique tenetur. Quasvoluptate beatae voluptas commodi? Impedit
+          itaque quibusdam praesentium, sed quaerat numquam sint molestiae.
+          Officia debitis facilis sunt voluptates. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Ad cumque distinctio ipsum in quod!
+          Nulla libero suscipit magnam eaque quam cum voluptates omnis esse
+          facere perspiciatis. Est provident harum nemo. Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Modi repellat, iste iure ipsa fugiat
+          velit maiores voluptatem nostrum ullam natus dignissimos corporis
+          dolore eveniet laudantium cupiditate quia, excepturi numquam fugit!
+        </p>
+      </section>
+      <div class="clear"></div>
+
+      <hr />
+      <!--gör en horizontal linje på webbsidan-->
+
+      <div id="popular" class="grid_12">
+        Mest populär under rubriken sightseeing
+      </div>
+      <div class="clear"></div>
+
+      <article>
+        <h6>Article1</h6>
+        <!-- nästa avdelningen=4x3 columns -->
+        <a
+          href="https://www.bundestag.de/en/visittheBundestag/dome/registration-245686"
+          target="_blank"
+          ><img
+            src="../images/reichstag_dima_kolesnyk_unsplash.jpg"
+            alt="inside the reichstag a spiral with mirrors and people walking around on different florrs"
+            title="Reichstag by Dima Kolesnyk"
+            width="200" /></a
+        ><!--helt fotot funkar som en länk-->
+        <div class="article_text">Reichstag</div>
+      </article>
+
+      <article>
+        <h6>Article2</h6>
+        <a
+          href="https://www.smb.museum/en/museums-institutions/museumsinsel-berlin/museum-buildings/overview/"
+          target="_blank"
+          ><img
+            src="../images/museum_danil_sorokin_unsplash.jpg"
+            alt="museum building with water around it and a little boat"
+            title="Museum Island by Danil Sorokin"
+            width="200"
+        /></a>
+        <div class="article_text">Museum Island</div>
+      </article>
+
+      <article>
+        <h6>Article3</h6>
+        <a
+          href="https://jfst.se/for-english-speakers/the-holocaust-memorial/"
+          target="_blank"
+          ><img
+            src="../images/holocaust_monument_massimo_virgilio_unsplash.jpg"
+            alt="several blocks of grey stone"
+            title="Holocaust Memorial by Massimo Virgilio"
+            width="200"
+        /></a>
+        <div class="article_text">Holocaust Monument</div>
+      </article>
+
+      <article>
+        <h6>Article4</h6>
+        <a href="https://www.visitberlin.de/en/brandenburg-gate" target="_blank"
+          ><img
+            src="../images/felix_bacher_unsplash.jpg"
+            alt="the top of the brandenburger tor in berlin"
+            title="Brandeburger Tor by Felix Bacher"
+            width="200"
+        /></a>
+        <div class="article_text">Brandenburger Tor</div>
+      </article>
+      <div class="clear"></div>
+
+      <footer>
+        <!-- avdelningen=footer, footer=12 column grid -->
+        <p id="footer_text">Copyright 2024 Uppdaterad: 01/04/2024</p>
+      </footer>
+      <div class="clear"></div>
+    </div>
+    <!-- .content ends -->
+  </body>
+</html>

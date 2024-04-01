@@ -7,38 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--viewport: del man visa av den totala bilden; content: kontrollera storleken av viewport; initial-scale: påverka scale och width och även zoom level-->
     <title>BERLIN CITYGUIDE</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <!--länk till min CSS dokument-->
   </head>
   <body>
     <div class="content">
-    <header>
-      <!-- class speciferar flera element som bearbetar jag i CSS -->
-      <a href="index.html">
-        <!--hela bilden funkar som en länk-->
+      <header>
+        <!-- class speciferar flera element som bearbetar jag i CSS -->
+        <a href="index.html">
+          <!--hela bilden funkar som en länk-->
           <!-- avdelningen=header, header=12 column grid -->
           <div class="header_text">
             <h1>BERLIN</h1>
           </div>
         </a>
-    </header>
-    <div class="clear"></div>
-    <!--clear specificierar element som flyter bredvid rensat element och på vilken sida-->
+      </header>
+      <div class="clear"></div>
+      <!--clear specificierar element som flyter bredvid rensat element och på vilken sida-->
 
-    <nav>
+      <nav>
         <!--id specificerar bara ett element som bearbetar jag i CSS-->
         <!-- avdelning till navigeringen, vilken är en oordnad lista -->
         <ul>
-          <li><a class="menu" href="restauranger.html">Restauranger</a></li>
+          <li>
+            <a class="menu" href="pages/restauranger.html">Restauranger</a>
+          </li>
           <!--länkar till andra sidor-->
-          <li><a class="menu" href="kafeer.html">Kaféer</a></li>
-          <li><a class="menu" href="nattliv.html">Nattliv</a></li>
-          <li><a class="menu" href="sightseeing.html">Sightseeing</a></li>
+          <li><a class="menu" href="pages/kafeer.html">Kaféer</a></li>
+          <li><a class="menu" href="pages/nattliv.html">Nattliv</a></li>
+          <li><a class="menu" href="pages/sightseeing.html">Sightseeing</a></li>
         </ul>
       </nav>
       <div class="clear"></div>
 
-     <section>
+      <section>
         <!-- nästa avdelningen=2x6 columns -->
         <h6>Section1</h6>
         <img
@@ -55,13 +57,13 @@
           Hej och vällkommen på min webbplats. Jag heter Sophie och bor i
           Stockholm, men jag bodde nästan 30 år i Berlin. Här hittar du mina
           handplockade tips om Berlin - en blandning av insidertips och
-          sightseeing. För att hitta snabbt vad du söker, har jag delad upp
-          min webbplats i 4 olika rubriker:
-          <a href="restauranger.html">Restauranger</a>,
-          <a href="kafeer.html">Kaféer</a>,
-          <a href="nattliv.html">Nattliv</a> och
-          <a href="sightseeing.html">Sightseeing</a>. Längre ner finns
-          det dom mest populära tipsen från rubriken. <strong>Viel Spaß!</strong>
+          sightseeing. För att hitta snabbt vad du söker, har jag delad upp min
+          webbplats i 4 olika rubriker:
+          <a href="pages/restauranger.html">Restauranger</a>,
+          <a href="pages/kafeer.html">Kaféer</a>,
+          <a href="pages/nattliv.html">Nattliv</a> och
+          <a href="pages/sightseeing.html">Sightseeing</a>. Längre ner finns det
+          dom mest populära tipsen från rubriken. <strong>Viel Spaß!</strong>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           similique tenetur. Quasvoluptate beatae voluptas commodi? Impedit
           itaque quibusdam praesentium, sed quaerat numquam sint molestiae.
@@ -91,7 +93,7 @@
         ><!--helt fotot funkar som en länk-->
         <div class="article_text">Zur Haxe</div>
       </article>
-      
+
       <article>
         <h6>Article2</h6>
         <a href="https://houseofsmallwonder.de/" target="_blank"
@@ -103,7 +105,7 @@
         /></a>
         <div class="article_text">House of Small Wonders</div>
       </article>
-      
+
       <article>
         <h6>Article3</h6>
         <a href="https://www.berghain.berlin/en/" target="_blank"
@@ -115,7 +117,7 @@
         /></a>
         <div class="article_text">Berghain</div>
       </article>
-      
+
       <article>
         <h6>Article4</h6>
         <a href="https://www.visitberlin.de/en/brandenburg-gate" target="_blank"
@@ -131,7 +133,7 @@
 
       <footer>
         <!-- avdelningen=footer, footer=12 column grid -->
-        <p id="footer_text">Copyright 2021 Uppdaterad: 05/02/2021</p>
+        <p id="footer_text">Copyright 2024 Uppdaterad: 01/04/2024</p>
       </footer>
       <div class="clear"></div>
     </div>
