@@ -26,6 +26,6 @@ This project demonstrates:
 - Basic accessibility and optimization techniques for websites.
 
 Author
-Sophie König
-nora.sophie.koenig@gmail.com
-Created as part of "Webbutveckling 1", KomvuxKurs Stockholm
+- Sophie König
+- nora.sophie.koenig@gmail.com
+- Created as part of "Webbutveckling 1", KomvuxKurs Stockholm
